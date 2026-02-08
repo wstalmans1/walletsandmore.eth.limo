@@ -1,0 +1,22 @@
+{
+  "name": "walletsandmore-monorepo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter frontend dev",
+    "dev:arm64": "./scripts/dev-arm64.sh",
+    "build": "pnpm --filter frontend build",
+    "compile": "pnpm --filter contracts compile",
+    "test": "pnpm --filter contracts test",
+    "deploy:local": "pnpm --filter contracts deploy:local",
+    "deploy:sepolia": "pnpm --filter contracts deploy:sepolia",
+    "lint": "pnpm --filter frontend lint",
+    "preview": "pnpm --filter frontend preview",
+    "postinstall": "node scripts/install-hooks.js"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

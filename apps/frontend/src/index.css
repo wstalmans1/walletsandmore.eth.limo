@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.dapp-bg {
+  background: linear-gradient(
+    90deg,
+    #1b152a 0%,
+    #1f1931 30%,
+    #241f3a 55%,
+    #2b2450 78%,
+    #342865 100%
+  );
+  background-attachment: fixed;
+}

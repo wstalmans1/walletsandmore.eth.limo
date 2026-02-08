@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+.env
+.env.local
+.env.*.local
+pnpm-lock.yaml
+apps/*/dist
+apps/*/.build-counter
+packages/*/artifacts
+packages/*/cache
+packages/*/typechain-types
+packages/*/storage-layouts
