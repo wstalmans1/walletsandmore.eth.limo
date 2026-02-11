@@ -1,6 +1,6 @@
 # walletsandmore
 
-Live DApp: https://walletsandmore.eth.limo
+Live DApp: [https://walletsandmore.eth.limo](https://walletsandmore.eth.limo)
 
 Monorepo scaffold based on DamirOS setup guides 001 + 002.
 
